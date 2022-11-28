@@ -9,15 +9,10 @@ The information hereby filled by the project will serve as additional documentat
 - [Incident Response](#Incident-Response)
 - [Monitoring Systems](#Monitoring-Systems)
 
-
-
 <br>
 
-
 ## To be filled by the project:
-
 ### About the bridge
-
 #### Bridge type
   - [ ] **Lock and mint:** User locks tokens in a smart contract on the source chain, then wrapped versions of those locked tokens are minted on the destination chain as a form of IOU.
   - [ ] **Burn and mint:** User burns tokens on the source chain, then the same native tokens are re-issued (minted) on the destination chain.
@@ -33,7 +28,6 @@ The information hereby filled by the project will serve as additional documentat
   - [ ] L1 <> L2.
   - [ ] L2 <> L2.
 
-
 ####  With what chain(s) does it interact with?
   - [ ] List chains:
 
@@ -48,7 +42,6 @@ The information hereby filled by the project will serve as additional documentat
   - [ ] **A third party:** outsourcing RPC providers and message relays.
       - Who is the 3rd party? Describe:
 
-
 ####  What could go wrong with validators?
   - [ ] **External Validators:** Validators can censor, steal, freeze funds. Validator keys can be compromised.
   - [ ] **Optimistic Validation:** If Watchers are not active, messages can be forged and funds can be stolen.
@@ -56,15 +49,10 @@ The information hereby filled by the project will serve as additional documentat
   - [ ] **Full client Ethereum Validation:** Nothing? If Ethereum forks, dst chain will fork ethereum.
   - [ ] Other, describe:
 
-
-
-
-
 <br>
 <br>
 
 ### Economic
-
 #### How much value is currently locked in the bridge (estimation)?
   - [ ] < 1 million.
   - [ ] < 10 million.
@@ -74,8 +62,7 @@ The information hereby filled by the project will serve as additional documentat
 
 ####  How much value $x$ has been secured over $t$ period of time (e.g., in **11** months **7 million** have remained secured without any compromise)? Please fill in:
   - [ ] During the period of $t$ months, $x$ amount has remained secure without any compromise.
-
-
+  
 #### Economic Security
   - [ ] How much would it cost to corrupt (validators) your system? Describe:
 
@@ -91,94 +78,82 @@ The information hereby filled by the project will serve as additional documentat
   - [ ] Low.
   - [ ] Other, describe:
 
-
 <br>
 <br>
 
-  ### Security Development Process
+### Security Development Process
+####  Amount of extensive documentation and defined specifications?
+- [ ] High.
+- [ ] Medium.
+- [ ] Low.
+- [ ] None.
 
-  ####  Amount of extensive documentation and defined specifications?
+####  Level of extensive Testing and Fuzzing coverage as part of the CI/CD pipeline?
   - [ ] High.
   - [ ] Medium.
   - [ ] Low.
   - [ ] None.
 
-
-  ####  Level of extensive Testing and Fuzzing coverage as part of the CI/CD pipeline?
+####  Use of Static and Dynamic analysis tools (slither, echidna, Certora Prover, etc..)?
   - [ ] High.
   - [ ] Medium.
   - [ ] Low.
   - [ ] None.
 
-
-  ####  Use of Static and Dynamic analysis tools (slither, echidna, Certora Prover, etc..)?
-  - [ ] High.
-  - [ ] Medium.
-  - [ ] Low.
-  - [ ] None.
-
-
-  ####  Updated and patched packages/dependencies?
+####  Updated and patched packages/dependencies?
   - [ ] Yes.
   - [ ] No.
   - [ ] N/A, describe:
 
-
-  ####  Deployment tests?
+####  Deployment tests?
   - [ ] Yes.
   - [ ] No.
   - [ ] N/A, describe:
 
+<br>
+<br>
 
-  <br>
-  <br>
-
-  ### Attack Surface 
-
-  #### **Underlying blockchain**
-
-  ####  What happens to the bridge if a critical chain malfunction occurs?
+### Attack Surface 
+#### **Underlying blockchain**
+####  What happens to the bridge if a critical chain malfunction occurs?
   - [ ] Describe:
 
-
-  ####  What trust assumptions exist about the underlying blockchain the bridge is built on?
+####  What trust assumptions exist about the underlying blockchain the bridge is built on?
   - [ ] The chain can never freeze.
   - [ ] Gas prices cannot go very high.
   - [ ] Chain malfunctions or exploit in native token/message bridge.
   - [ ] Other, describe:
+  
+<br>
 
-  <br>
-
-  #### **Contracts**
-  ####  Are contracts open source and accessible to the public?
+#### **Contracts**
+####  Are contracts open source and accessible to the public?
   - [ ] Yes.
   - [ ] No.
 
-  #### Software license (i.g., [spdx.org](https://spdx.org))
+#### Software license (i.g., [spdx.org](https://spdx.org))
   - [ ] MIT.
   - [ ] Proprietary.
   - [ ] Other, describe:
 
-  ####  Are contracts Upgradeable?
+####  Are contracts Upgradeable?
   - [ ] Yes, upgraded by $m$-of-$n$ multisig.
   - [ ] Upgraded by $m$-of-$n$ multisig after delay (e.g., 48 hours).
   - [ ] No.
 
-
-  ####  Are contracts using proxy patterns?
+####  Are contracts using proxy patterns?
   - [ ] Diamond Pattern.
   - [ ] Transparent Proxy Pattern.
   - [ ] UUPS Proxy Pattern.
   - [ ] BeaconProxy.
   - [ ] No.
 
-
-  ####  How complex is the system's implementation (How hard it is for an external party to undertand)?
+####  How complex is the system's implementation (How hard it is for an external party to undertand)?
   - [ ] High.
   - [ ] Medium.
   - [ ] Low.
 
-  ####  Security
+####  Security
   - [ ] Audited once.
   - [ ] Audited multiple times.
   - [ ] Bug Bounty program in place.
@@ -186,73 +161,65 @@ The information hereby filled by the project will serve as additional documentat
   - [ ] None.
   - [ ] Other, describe:
 
-  <br>
+<br>
 
-  #### **Keys and Back-End**
-  #### Are signer keys secured using best practices (e.g., not in plain text and accessible by low permissioned users) ?
-  - [ ] Yes.
-  - [ ] No.
-  - [ ] Describe:
+#### **Keys and Back-End**
+#### Are signer keys secured using best practices (e.g., not in plain text and accessible by low permissioned users) ?
+ - [ ] Yes.
+ - [ ] No.
+ - [ ] Describe:
 
-
-  #### Has the back end been audited?
+#### Has the back end been audited?
   - [ ] Yes.
   - [ ] No.
   - [ ] N/A, describe:
 
-  #### Has the project conducted penetration testing / Red Team engagements?
-  - [ ] Yes.
-  - [ ] No.
+#### Has the project conducted penetration testing / Red Team engagements?
+ - [ ] Yes.
+ - [ ] No.
 
 
-  #### Has the project suffered any kind of hack (either web2 or smart contract related)?
-  - [ ] Yes.
-  - [ ] No.
+#### Has the project suffered any kind of hack (either web2 or smart contract related)?
+ - [ ] Yes.
+ - [ ] No.
 
-  <br>
+<br>
 
-
-
-  #### **Third party assumptions**
-  #### Is the bridge trusting 3rd parties?
+#### **Third party assumptions**
+#### Is the bridge trusting 3rd parties?
   - [ ] Yes.
     - Which? Describe:
   - [ ] No.
 
 
-  #### How secure are those 3rd parties?
+#### How secure are those 3rd parties?
   - [ ] High.
   - [ ] Medium.
   - [ ] Low.
   - [ ] N/A, describe:
 
-  #### Bridge risk if 3rd party gets compromised?
+#### Bridge risk if 3rd party gets compromised?
   - [ ] High.
   - [ ] Medium.
   - [ ] Low.
   - [ ] N/A, describe:
 
+<br>
+<br>
 
-
-  <br>
-  <br>
-
-  ### Incident Response
-
-  #### Are all organization assets and human capital identified and categorized? Reference in [Appendix A](#Appendix-A-Asset-management)
+### Incident Response
+#### Are all organization assets and human capital identified and categorized? Reference in [Appendix A](#Appendix-A-Asset-management)
   - [ ] Yes.
   - [ ] No.
 
-
-  ####  Time of the challenge window is long enough (e.g., 30 min) to provide a human level response to an incident?
+####  Time of the challenge window is long enough (e.g., 30 min) to provide a human level response to an incident?
   - [ ] Describe:
 
-
-  ####  Can pause contracts as a defensive action during a compromise?
+####  Can pause contracts as a defensive action during a compromise?
   - [ ] Yes.
   - [ ] No.
 
-  ####  Clear IR Communication plan
+####  Clear IR Communication plan
   - [ ] War room channels.
   - [ ] Defined participants and responsibilities.
   - [ ] Tools ready to debug exploit transactions.
@@ -262,47 +229,38 @@ The information hereby filled by the project will serve as additional documentat
   - [ ] None.
   - [ ] Other, describe:
 
-  ####  How fast is the project's response time to an incident?
+####  How fast is the project's response time to an incident?
   - [ ] <= 30 min.
   - [ ] > 30 min.
   - [ ] > 24h.
   - [ ] N/A, describe.
 
-  ####  Relationship with White hats?
+####  Relationship with White hats?
   - [ ] Yes.
   - [ ] No.
   - [ ] N/A, describe.
 
-  <br>
+<br>
 
-
-  ### Monitoring Systems
-
-  ####  Network Health monitoring (nodes, internal network, etc..)?
+### Monitoring Systems
+####  Network Health monitoring (nodes, internal network, etc..)?
   - [ ] Yes.
   - [ ] No.
 
-
-  ####  Smart Contract monitoring (checking broken invariants, large sums of capital flow, suspicious transactions/addresses, etc..) ?
+####  Smart Contract monitoring (checking broken invariants, large sums of capital flow, suspicious transactions/addresses, etc..) ?
   - [ ] Yes.
   - [ ] No.
 
-
-  ####  Clear reporting guidelines available to report security issues (website information, dedicated email / Telegram, etc..)?
+####  Clear reporting guidelines available to report security issues (website information, dedicated email / Telegram, etc..)?
   - [ ] Yes.
   - [ ] No.
 
-
-  ####  Automated Transaction Simulations (simulate transactions before execution)
+####  Automated Transaction Simulations (simulate transactions before execution)
   - [ ] Yes.
   - [ ] No.
-
-
 
 <br>
 <hr>
-
-
 
 ## Appendix A: Asset management
 Keep an inventory of physical devices, systems, software and human resources within the organization. Each category should be classified by the organization based on criticality and business value.

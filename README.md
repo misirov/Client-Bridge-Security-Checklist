@@ -13,10 +13,11 @@ The information hereby filled by the project will serve as additional documentat
 
 ## To be filled by the project:
 ### About the bridge
-#### Bridge payload (may select multiple)
- - [ ] **Arbitrary Message Bridge (aka AMB):** The bridge transfers arbitrary data from the origin chain to the destination chain.
- - [ ] **Liquidity Bridge:** The bridge utilizes cross-chain liquidity pools to bridge fungible assets.
- - [ ] **Token Bridge (aka Lock, Mint or Burn):** The bridge locks or burns assets on the origin chain and then mints assets on the destination chain.
+#### Bridge type
+  - [ ] **Lock and mint:** User locks tokens in a smart contract on the source chain, then wrapped versions of those locked tokens are minted on the destination chain as a form of IOU.
+  - [ ] **Burn and mint:** User burns tokens on the source chain, then the same native tokens are re-issued (minted) on the destination chain.
+  - [ ] **Liquidity Pool:** A user locks tokens on the source chain, then unlocks the same native tokens from a liquidity pool on the destination chain.
+  - [ ] **Hybrid:** For some tokens it acts as Lock/Burn-and-mint, for others acts as a Liquidity Pool.
 
 #### Centralization
   - [ ] **Trusted:** Trusted bridges depend upon a central entity or system for their operations. They have trust assumptions with respect to the custody of funds and the security of the bridge. Users mostly rely on the bridge operator's reputation. Users need to give up control of their crypto assets.

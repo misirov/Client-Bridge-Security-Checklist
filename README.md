@@ -70,8 +70,8 @@ The information hereby filled by the project will serve as additional documentat
   - [ ] < 500 million.
   - [ ] < 1 billion.
 
-####  How much value $x$ has been secured over $t$ period of time (e.g., in **11** months **7 million** have remained secured without any compromise)? Please fill in:
-  - [ ] During the period of $t$ months, $x$ amount has remained secure without any compromise.
+####  How much $value$ has been secured over $t$ period of time (e.g., in **11** months **7 million** have remained secured without any compromise)? Please fill in: $value$ $*$ (now - $t$)
+  - [ ] During the period of $t$ months, $value$ has remained secure without any compromise.
   
 #### Economic Security
   - [ ] How much would it cost to corrupt (validators) your system? Describe:

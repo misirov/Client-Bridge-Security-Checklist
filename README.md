@@ -38,7 +38,9 @@ The information hereby filled by the project will serve as additional documentat
   - [ ] **Cannonical:** Messages are validated by Ethereum smart contracts or possibly via the protocol itself) i.g., Optimistic Rollups, zkRollups..
 
 ####  Who is managing the validators / EOA / multisig / attester?
-  - [ ] **The bridge project itself:** The team runs and maintains nodes
+  - [ ] **The bridge project itself:** The team runs and maintains nodes.
+      - Is it Permissioned?
+      - Describe what actions can third parties take in the event of a an issue (e.g., censorphip, technical malfunction, etc.. )
   - [ ] **A third party:** outsourcing RPC providers and message relays.
       - Who is the 3rd party? Describe:
 

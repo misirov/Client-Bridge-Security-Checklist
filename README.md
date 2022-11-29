@@ -13,15 +13,14 @@ The information hereby filled by the project will serve as additional documentat
 
 ## To be filled by the project:
 ### About the bridge
-#### Bridge type
-  - [ ] **Lock and mint:** User locks tokens in a smart contract on the source chain, then wrapped versions of those locked tokens are minted on the destination chain as a form of IOU.
-  - [ ] **Burn and mint:** User burns tokens on the source chain, then the same native tokens are re-issued (minted) on the destination chain.
-  - [ ] **Liquidity Pool:** A user locks tokens on the source chain, then unlocks the same native tokens from a liquidity pool on the destination chain.
-  - [ ] **Hybrid:** For some tokens it acts as Lock/Burn-and-mint, for others acts as a Liquidity Pool.
+#### Bridge payload (may select multiple)
+ - [ ] **Arbitrary Message Bridge (aka AMB):** The bridge transfers arbitrary data from the origin chain to the destination chain.
+ - [ ] **Liquidity Bridge:** The bridge utilizes cross-chain liquidity pools to bridge fungible assets.
+ - [ ] **Token Bridge (aka Lock, Mint or Burn):** The bridge locks or burns assets on the origin chain and then mints assets on the destination chain.
 
 #### Centralization
   - [ ] **Trusted:** Trusted bridges depend upon a central entity or system for their operations. They have trust assumptions with respect to the custody of funds and the security of the bridge. Users mostly rely on the bridge operator's reputation. Users need to give up control of their crypto assets.
-  - [ ] **Trustless:** Trustless bridges operate using smart contracts and algorithms. They are trustless, i.e., the security of the bridge is the same as that of the underlying blockchain. Through smart contracts, trustless bridges enable users to remain in control of their funds.
+  - [ ] **Trust-Minimized:** Trust-minimized bridges operate using smart contracts and algorithms. They are trustless, i.e., the security of the bridge is the same as that of the underlying blockchain. Through smart contracts, trust-minimized bridges enable users to remain in control of their funds.
 
 ####  What does the bridge connect into?
   - [ ] L1 <> L1.
@@ -33,9 +32,9 @@ The information hereby filled by the project will serve as additional documentat
 
 ####  How are messages sent from the bridge validated 
   - [ ] **Externally verified:** Third party (EOA, MultiSig, intermediary blockchain with their own set of validators).
-  - [ ] **Natively Verified:** By originating chain Validators (light client; if src chain validator say msg are valid, they are considered valid on Destination chain)
-  - [ ] **Optimistically verified:** (message considered valid until proven otherwise by $1/n$ watchers during the time of the fault proof window).
-  - [ ] **Trustless by Ethereum** (messages are validated by Ethereum smart contracts or possibly via the protocol itself) i.g., Optimistic Rollups, zkRollups..
+  - [ ] **Natively Verified:** By originating chain Validators (light client; if src chain validator say msg are valid, they are considered valid on Destination chain).
+  - [ ] **Optimistically verified:** Message considered valid until proven otherwise by $1/n$ watchers during the time of the fault proof window.
+  - [ ] **Cannonical:** Messages are validated by Ethereum smart contracts or possibly via the protocol itself) i.g., Optimistic Rollups, zkRollups..
 
 ####  Who is managing the validators?
   - [ ] **The bridge project itself:** The team runs and maintains nodes

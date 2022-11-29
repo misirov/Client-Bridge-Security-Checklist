@@ -135,11 +135,11 @@ The information hereby filled by the project will serve as additional documentat
   - [ ] The chain can never freeze.
   - [ ] Gas prices cannot go very high.
   - [ ] Chain malfunctions or exploit in native token/message bridge.
-  - [ ] Chain reorgs within a certain time window
-  - [ ] Chain reverts due to a fraud proof on optimistic rollups
-  - [ ] Data availability issues: chain progresses without revealing data during the bridge's optimistic fraud proof window
+  - [ ] Chain reorgs within a certain time window.
+  - [ ] Chain reverts due to a fraud proof on optimistic rollups.
+  - [ ] Data availability issues: chain progresses without revealing data during the bridge's optimistic fraud proof window.
   - [ ] Other, describe:
-  
+
 <br>
 
 #### **Contracts**
@@ -228,7 +228,7 @@ The information hereby filled by the project will serve as additional documentat
   - [ ] Yes.
   - [ ] No.
 
-####  Time of the challenge window is long enough (e.g., 30 min) to provide a human level response to an incident?
+####  Time of the challenge window is long enough (e.g., 30 min) to provide a human level response to an incident? Note that this challenge window depends on the security of the weakest chain, therefore it must be considered per chain.
   - [ ] Describe:
 
 ####  Can pause contracts as a defensive action during a compromise?

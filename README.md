@@ -234,6 +234,7 @@ The information hereby filled by the project will serve as additional documentat
 ####  Can pause contracts as a defensive action during a compromise?
   - [ ] Yes.
   - [ ] No.
+  - [ ] Describe. (how to pause contracts, level of preparedness, tools used, team members with access to execute, etc..)
 
 ####  Clear IR Communication plan
   - [ ] War room channels.

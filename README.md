@@ -20,7 +20,7 @@ The information hereby filled by the project will serve as additional documentat
 
 #### Centralization
   - [ ] **Trusted:** Trusted bridges depend upon a central entity or system for their operations. They have trust assumptions with respect to the custody of funds and the security of the bridge. Users mostly rely on the bridge operator's reputation. Users need to give up control of their crypto assets.
-  - [ ] **Trustless:** Trustless bridges operate using smart contracts and algorithms. They are trustless, i.e., the security of the bridge is the same as that of the underlying blockchain. Through smart contracts, trustless bridges enable users to remain in control of their funds.
+  - [ ] **Trust-Minimized:** Trust-minimized bridges operate using smart contracts and algorithms. They are trustless, i.e., the security of the bridge is the same as that of the underlying blockchain. Through smart contracts, trust-minimized bridges enable users to remain in control of their funds.
 
 ####  What does the bridge connect into?
   - [ ] L1 <> L1.
@@ -32,9 +32,9 @@ The information hereby filled by the project will serve as additional documentat
 
 ####  How are messages sent from the bridge validated 
   - [ ] **Externally verified:** Third party (EOA, MultiSig, intermediary blockchain with their own set of validators).
-  - [ ] **Natively Verified:** By originating chain Validators (light client; if src chain validator say msg are valid, they are considered valid on Destination chain)
-  - [ ] **Optimistically verified:** (message considered valid until proven otherwise by $1/n$ watchers during the time of the fault proof window).
-  - [ ] **Trustless by Ethereum** (messages are validated by Ethereum smart contracts or possibly via the protocol itself) i.g., Optimistic Rollups, zkRollups..
+  - [ ] **Natively Verified:** By originating chain Validators (light client; if src chain validator say msg are valid, they are considered valid on Destination chain).
+  - [ ] **Optimistically verified:** Message considered valid until proven otherwise by $1/n$ watchers during the time of the fault proof window.
+  - [ ] **Cannonical:** Messages are validated by Ethereum smart contracts or possibly via the protocol itself) i.g., Optimistic Rollups, zkRollups..
 
 ####  Who is managing the validators?
   - [ ] **The bridge project itself:** The team runs and maintains nodes

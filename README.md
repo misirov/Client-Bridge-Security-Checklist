@@ -46,11 +46,11 @@ The information hereby filled by the project will serve as additional documentat
 
 ####  What could go wrong with validators? Describe the situation under which this can happen.
   - [ ] **Censor** individual messages.
-    -  Describe.
+    - Describe.
   - [ ] **Freeze / Pause** messages indefinitly.
-    -  Describe.
+    - Describe.
   - [ ] **Forge** messages / steal funds.
-    -  Describe.
+    - Describe.
   - [ ] **Validator keys** can be compromised.
     - Describe.
   - [ ] **Exposure to** attacks, reorgs and slashing.
@@ -87,6 +87,9 @@ The information hereby filled by the project will serve as additional documentat
   - [ ] Medium.
   - [ ] Low.
   - [ ] Other, describe:
+
+#### Are there mechanisms in place to ensure the sustainability and decentralization of relayers / sequencers?
+  - Describe.
 
 <br>
 <br>

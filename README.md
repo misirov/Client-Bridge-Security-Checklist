@@ -39,17 +39,25 @@ The information hereby filled by the project will serve as additional documentat
 
 ####  Who is managing the validators / EOA / multisig / attester?
   - [ ] **The bridge project itself:** The team runs and maintains nodes.
-      - Is it Permissioned?
-      - Describe what actions can third parties take in the event of a an issue (e.g., censorphip, technical malfunction, etc.. )
+    - Is it Permissioned?
+    - Describe what actions can third parties take in the event of a an issue (e.g., censorphip, technical malfunction, etc.. )
   - [ ] **A third party:** outsourcing RPC providers and message relays.
-      - Who is the 3rd party? Describe:
+    - Who is the 3rd party? Describe:
 
-####  What could go wrong with validators?
-  - [ ] **External Validators:** Validators can censor, steal, freeze funds. Validator keys can be compromised.
-  - [ ] **Optimistic Validation:** If Watchers are not active, messages can be forged and funds can be stolen.
-  - [ ] **LightClient Validation:** If Dst Chain is 51% attacked, msgs can be censored and funds can be stolen. $1/3$rd of Validators can freeze funds. Fork on a destination chain can lead to fund imbalance.
-  - [ ] **Full client Ethereum Validation:** Nothing? If Ethereum forks, dst chain will fork ethereum.
-  - [ ] Other, describe:
+####  What could go wrong with validators? Describe the situation under which this can happen.
+  - [ ] **Censor** individual messages.
+    -  Describe.
+  - [ ] **Freeze / Pause** messages indefinitly.
+    -  Describe.
+  - [ ] **Forge** messages / steal funds.
+    -  Describe.
+  - [ ] **Validator keys** can be compromised.
+    - Describe.
+  - [ ] **Exposure to** attacks, reorgs and slashing.
+    - Describe.
+  - [ ] **Other event**, describe:
+
+
 
 <br>
 <br>

@@ -37,7 +37,7 @@ The information hereby filled by the project will serve as additional documentat
   - [ ] **Optimistically verified:** Message considered valid until proven otherwise by $1/n$ watchers during the time of the fault proof window.
   - [ ] **Cannonical:** Messages are validated by Ethereum smart contracts or possibly via the protocol itself) i.g., Optimistic Rollups, zkRollups..
 
-####  Who is managing the validators?
+####  Who is managing the validators / EOA / multisig / attester?
   - [ ] **The bridge project itself:** The team runs and maintains nodes
   - [ ] **A third party:** outsourcing RPC providers and message relays.
       - Who is the 3rd party? Describe:

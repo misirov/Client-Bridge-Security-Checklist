@@ -135,6 +135,9 @@ The information hereby filled by the project will serve as additional documentat
   - [ ] The chain can never freeze.
   - [ ] Gas prices cannot go very high.
   - [ ] Chain malfunctions or exploit in native token/message bridge.
+  - [ ] Chain reorgs within a certain time window
+  - [ ] Chain reverts due to a fraud proof on optimistic rollups
+  - [ ] Data availability issues: chain progresses without revealing data during the bridge's optimistic fraud proof window
   - [ ] Other, describe:
   
 <br>

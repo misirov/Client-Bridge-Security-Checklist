@@ -260,9 +260,10 @@ The information hereby filled by the project will serve as additional documentat
 <br>
 
 ### Monitoring Systems
-####  Network Health monitoring (nodes, internal network, etc..)?
+####  Network Health monitoring? e.g., monitoring the health of all chains involved, ensure liveness, data availability, fraud proofs (in optimistic rollups), exploits of canonical bridges that could compromise the value of all assets on a network, etc..
   - [ ] Yes.
   - [ ] No.
+  - [ ] Describe.
 
 ####  Smart Contract monitoring (checking broken invariants, large sums of capital flow, suspicious transactions/addresses, etc..) ?
   - [ ] Yes.

@@ -58,7 +58,6 @@ The information hereby filled by the project will serve as additional documentat
   - [ ] **Other event**, describe:
 
 
-
 <br>
 <br>
 

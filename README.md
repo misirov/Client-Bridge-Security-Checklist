@@ -8,10 +8,10 @@ The information hereby filled by the project will serve as additional documentat
 - [Attack Surface](#Attack-Surface)
 - [Incident Response](#Incident-Response)
 - [Monitoring Systems](#Monitoring-Systems)
-- [Appendix A Asset management](#Appendix-A-Asset-management)
-- [Appendix B Abbreviations](#Appendix-B-Abbreviations)
-- [Appendix C Bridge Security Verification Requirements](#Appendix-C-Bridge-Security-Verification-Requirements)
-- [Appendix D Dashboards and Links of interest](#Appendix-D-Dashboards-and-Links-of-interest)
+- [Appendix A: Asset management](#Appendix-A-Asset-management)
+- [Appendix B: Abbreviations](#Appendix-B-Abbreviations)
+- [Appendix C: Bridge Security Verification Requirements](#Appendix-C-Bridge-Security-Verification-Requirements)
+- [Appendix D: Dashboards and Links of interest](#Appendix-D-Dashboards-and-Links-of-interest)
 
 <br>
 
@@ -284,7 +284,7 @@ The information hereby filled by the project will serve as additional documentat
 <br>
 <hr>
 
-## Appendix A Asset management
+## Appendix A: Asset management
 Keep an inventory of physical devices, systems, software and human resources within the organization. Each category should be classified by the organization based on criticality and business value.
 
 - **Human Resources**

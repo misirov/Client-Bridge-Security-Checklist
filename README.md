@@ -331,3 +331,29 @@ IR = *Incident Response*
 | **C6.5** | Verify that bridge does not allow to spoof chain identifier. |
 | **C6.6** | Verify that bridge uses a nonce parameter to allow the same operation (the same sender, receiver and amount) to be executed multiple times. |
 | **C6.7** | Verify signed message cannot be used in a differenct context (use domain separator from EIP-712). |
+
+<br>
+
+## Appendix D: Dashboards and Links of interest
+- Dashboard
+  - [L2BEAT, Bridge Risk Dashboard](https://l2beat.com/?view=risk)
+  - [Hop Exchange Explorer Dashboard](https://explorer.hop.exchange/)
+  - [DefiLlama Bridges Dashboard](https://defillama.com/bridges)
+
+- Toolkits, Frameworks and Guidelines
+  - [Simple Security Toolkit](https://github.com/nascentxyz/simple-security-toolkit/blob/main/incident-response-plan-template.md)
+  - [L2BEAT, Bridge Risk Framework](https://gov.l2beat.com/t/l2bridge-risk-framework/31)
+  - [Yearn Finance Emergency Procedures](https://docs.yearn.finance/developers/v2/EMERGENCY)
+  - [EEA CIW - Crosschain Security Guidelines](https://entethalliance.github.io/crosschain-interoperability/crosschainsecurityguidelines.html)
+
+- Talks
+  - [DeFi Security Summit Day 2 Session 11: Bridges](https://www.youtube.com/watch?v=OIY2mcppo14)
+  - [Rollups Are the Most Secure Bridges - DevCon Bogota](https://www.youtube.com/watch?v=10welw1d_Bc)
+  - [Nuts and Bolts of Cross-Chain Communication - Devcon 5](https://www.youtube.com/watch?v=Ndwm4o4F6Xk)
+  - [Lessons from the Nomad Hack - DevCon Bogota](https://www.youtube.com/watch?v=Ow8YXfv02Jo)
+  summary: https://twitter.com/odysseas_eth/status/1583095789424848899 / https://typefully.com/odysseas_eth/XQskWEh
+  - [Securing Cross-chain Communication - DevCon Bogota](https://www.youtube.com/watch?v=sAVhW_xqrvY)
+
+- Standards
+  - [EIP-5164-cross-chain-execution](https://ethereum-magicians.org/t/eip-5164-cross-chain-execution/9658)
+  - [OpenZeppelin cross-chain support](https://docs.openzeppelin.com/contracts/4.x/crosschain)

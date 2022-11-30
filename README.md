@@ -1,5 +1,5 @@
 # Bridge Security Checklist: Client Side
-*Contact @cbym from Speabit for more information. Actively looking for feedback.*
+*Actively looking for feedback.*
 
 The information hereby filled by the project will serve as additional documentation to the security review.
 - [About the bridge](#About-the-bridge)
@@ -8,6 +8,10 @@ The information hereby filled by the project will serve as additional documentat
 - [Attack Surface](#Attack-Surface)
 - [Incident Response](#Incident-Response)
 - [Monitoring Systems](#Monitoring-Systems)
+- [Appendix A: Asset management](#Appendix-A:-Asset-management)
+- [Appendix B: Abbreviations](#Appendix-B:-Abbreviations)
+- [Appendix C: Bridge Security Verification Requirements](#Appendix-C:-Bridge-Security-Verification-Requirements)
+- [Appendix D: Dashboards and Links of interest](#Appendix-D:-Dashboards-and-Links-of-interest)
 
 <br>
 
